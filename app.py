@@ -2,16 +2,11 @@ import streamlit as st
 from fastai.vision.all import *
 import pathlib 
 import plotly.express as px
-import platform
-
-plt = platform.system()
-if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
-
 
 st.title("yuz mimikasini aniqlovchi dastur")
 
 st.markdown('''
-    Bu sizni qo'rqqan, jahli chiqqan, yoki xursand ekanligingizni aniqlab beradi.
+    Bu sizni qo'rqqan, jahli chiqqan, yoki xursand ekanligizni aniqlab beradi.
     Ishlatish uchun rasm yuklang va modelning natijalarini ko'ring.
 ''')
 
